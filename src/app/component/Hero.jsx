@@ -10,7 +10,7 @@ export default function HeroSection() {
       {/* Image Left */}
       <div className="relative w-40 h-40 md:w-80 md:h-80 rounded-xl overflow-hidden border-4 border-blue-500 shadow-lg mb-6 md:mb-0 md:mr-10">
         <Image
-          src="/profile.enc"
+          src="/profile.jpg"
           alt="Profile Picture"
           fill
           className="object-cover"
