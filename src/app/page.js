@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Hero from "./component/Hero";
-import Navbar from "./component/Navbar";
+// import Navbar from "./component/Navbar";
 import Projects from "./component/Projects";
 import Skills from "./component/Skills";
 import ExperienceCard from "./component/ExperienceCard";
@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Navbar />
+      {/* <Navbar /> */}
       <Projects />
       <Skills />
       <ExperienceCard />

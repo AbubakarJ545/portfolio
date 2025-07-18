@@ -12,11 +12,9 @@ export default function Skills() {
     "Postman",
     "Functional Components",
     "Class Components",
-
     "Node.js",
     "Express.js",
     "MongoDB",
-
     "Git & GitHub",
     "Teamwork",
     "Time Management",
@@ -26,12 +24,12 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="min-h-screen flex flex-col items-center justify-center px-4 py-16 bg-white text-gray-800"
+      className="min-h-screen flex flex-col items-center justify-center px-4 py-16 bg-white text-gray-800 dark:bg-gray-900 dark:text-white transition-colors duration-300"
     >
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4">
         Technical Skills
       </h2>
-      <p className="text-center text-gray-600 max-w-2xl mb-10">
+      <p className="text-center text-gray-600 dark:text-gray-300 max-w-2xl mb-10">
         A comprehensive set of technologies and tools I work with to create
         exceptional mobile applications.
       </p>
@@ -40,7 +38,7 @@ export default function Skills() {
         {skills.map((skill, i) => (
           <div
             key={i}
-            className="bg-white shadow-md rounded-xl px-4 py-6 text-center font-semibold text-gray-900 hover:shadow-lg hover:bg-blue-500 hover:text-amber-50 transition"
+            className="bg-white dark:bg-gray-800 shadow-md rounded-xl px-4 py-6 text-center font-semibold text-gray-900 dark:text-white hover:shadow-lg hover:bg-blue-500 hover:text-white dark:hover:text-white transition"
           >
             {skill}
           </div>
