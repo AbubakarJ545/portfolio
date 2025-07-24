@@ -35,7 +35,7 @@ export default function HeroSection() {
 
         <div className="flex gap-4 flex-wrap justify-center md:justify-start mb-4">
           <a
-            href="/Abubakar-webDevResume.pdf"
+            href="/Abubakar WebDeveloper-Resume.pdf"
             download
             className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full transition-all"
           >
